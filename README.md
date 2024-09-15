@@ -37,6 +37,7 @@ func main() {
 }
 
 // task_1
+
 type Person struct {
 	name string
 	age  int
