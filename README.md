@@ -105,7 +105,7 @@ func (b Book) String() string {
 }
 
 
-![alt text](image.png)
+![Image alt](https://github.com/1mpleX/5thL/blob/MainM/FifthLaba/image.png)
 
 запускаемый файл - main.go
 или же в терминале go run "путь до файла с расширением"
