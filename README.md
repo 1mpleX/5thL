@@ -37,8 +37,8 @@ func main() {
 }
 
 // task_1
-
 type Person struct {
+
 	name string
 	age  int
 }
@@ -105,16 +105,19 @@ func printAreas(shapes []Shape) {
 
 // task_6
 type Stringer interface {
+
 	String() string
 }
 
 type Book struct {
+
 	Title  string
 	Author string
 	Year   int
 }
 
 func (b Book) String() string {
+
 	return fmt.Sprintf("\ntask_6\nTitle: %s\nAuthor: %s\nYear: %d", b.Title, b.Author, b.Year)
 }
 
