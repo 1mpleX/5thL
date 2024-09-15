@@ -56,33 +56,40 @@ func MyPeople() {
 
 // task_2
 func birthday(person Person) {
+
 	fmt.Print("\n", person.name, " ", person.age+1)
 }
 
 // task_3
 type Circle struct {
+
 	Radius float64
 }
 
 func SquareForCircle(c *Circle) {
+
 	fmt.Print("\n\ntask_3\nEnter the radius of the circle: ")
 	fmt.Scan(&c.Radius)
 }
 
 // task_4
 type Shape interface {
+
 	Area() float64
 }
 
 type Rectangle struct {
+
 	Width, Height float64
 }
 
 func (r Rectangle) Area() float64 {
+
 	return r.Width * r.Height
 }
 
 func (c Circle) Area() float64 {
+
 	return math.Pi * c.Radius * c.Radius
 }
 
